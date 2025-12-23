@@ -64,4 +64,4 @@ KondisiCommandTest tracking (tanpa drone)--no-droneLihat tracking saja--tracking
 KeyFunctionSSelect target (ROI)AAuto-select nearest (YOLO)PAuto-select person (YOLO)RRelease target1Mode FOLLOW2Mode GOTOGSet GUIDED modeLSet LOITER modeHSet ALT_HOLD modeTToggle tracking-onlySPACEPause/ResumeQQuit
 
 📖 Lihat Help Lengkap
-bashpython3 main.py --help
+python3 main.py --help
