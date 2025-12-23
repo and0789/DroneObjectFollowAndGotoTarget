@@ -1,0 +1,36 @@
+/home/pi/project/ObjectFollow/
+├── main.py                          # Entry point utama
+├── modules/
+│   ├── __init__.py
+│   ├── args_helper.py               # Argument parser
+│   ├── config.py                    # Konfigurasi
+│   ├── controllers.py               # Distance, Yaw, Altitude, Smoother
+│   ├── display_utils.py             # Debug panel, crosshair, print_controls
+│   ├── drone_control.py             # MAVLink drone control
+│   ├── hud.py                       # HUD overlay
+│   ├── pid_controller.py            # PID controller (legacy)
+│   ├── utils.py                     # Utilities
+│   ├── cameras/
+│   │   ├── __init__.py
+│   │   ├── base_camera.py
+│   │   ├── opencv_camera.py
+│   │   └── picamera2_camera.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── dasiamrpn_kernel_cls1.onnx
+│   │   ├── dasiamrpn_kernel_r1.onnx
+│   │   ├── dasiamrpn_model.onnx
+│   │   └── yolov8n.pt
+│   ├── output/                      # Video output
+│   └── trackers/
+│       ├── __init__.py
+│       ├── base_tracker.py
+│       ├── csrt_tracker.py
+│       ├── dasiamrpn_tracker.py
+│       ├── hybrid_tracker.py
+│       └── yolo_tracker.py
+├── test/
+│   ├── camera_test.py
+│   ├── connection_test.py
+│   └── test_guide.py                # GUIDED mode tester
+└── requirements.txt
